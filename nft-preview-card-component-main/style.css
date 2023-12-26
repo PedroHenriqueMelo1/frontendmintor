@@ -1,0 +1,104 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+:root{
+ --soft-blue: hsl(215, 51%, 70%);
+--cyan: hsl(178, 100%, 50%);
+--dark-blue: hsl(217, 54%, 11%);
+--very-dark-blue: hsl(216, 50%, 16%);
+--very-dark: hsl(215, 32%, 27%);
+--white-dark: hsl(0, 0%, 100%);
+font-size: 62.5%;
+}
+
+body{
+    background: var(--dark-blue);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Outfit';
+}
+
+
+main{
+    max-width: 37rem;
+    margin: 0 auto;
+    background: var(--very-dark-blue);
+    padding: 2.5rem;
+    border-radius: 8px;
+}
+
+.equilibro{
+    width: 100%;
+    border-radius: 8px;
+}
+
+h1{
+    color: var(--white-dark);
+}
+
+.p22s{
+    font-size: 16px;
+    color: var(--soft-blue);
+    opacity: 0.8;
+}
+
+.ethereum{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+span{
+   
+    font-size: 1.3rem;
+    color: var(--soft-blue);
+}
+
+.manteiga{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid var(--very-dark);
+}
+
+.clock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pix2{
+    color: var(--cyan);
+}
+
+.left{
+    margin-left: 0.5rem;
+}
+
+footer img{
+  width: 3rem;
+  height: 3rem;
+  border: 0.1rem solid var(--white-dark);
+  border-radius: 50%;
+}
+
+footer{
+    margin-top: 2rem;
+    display: flex;
+align-items: center;
+  
+}
+
+p{
+    color: var(--soft-blue);
+    margin-left: 1rem;
+    font-size: 1.3rem;
+}
+
+strong{
+    color: var(--white-dark);
+}
